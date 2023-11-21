@@ -1,0 +1,28 @@
+.ddown{
+    display: flex;
+    flex: 6s;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px;
+    justify-content: space-between;
+    
+
+    .form-control {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width : 15%;
+    font-size:14px;
+    font-weight:300;
+    text-align: center;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(166, 166, 166, 0.47);
+    border-radius: 10px;
+    border: 50cm;
+    height: 50px;
+    background-color: rgb(218, 207, 242);
+    color: rgb(71, 7, 95)
+    }
+
+    
+
+}

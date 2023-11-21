@@ -1,0 +1,110 @@
+.control{
+
+    display: flex;
+
+    .controlContainer{
+        flex: 6;
+
+        .contop{
+            text-align: center;
+            margin-top: 2%;
+            font-size: 18px;
+            font-weight: 600;
+            color: rgb(84, 67, 114);
+            
+      
+        }
+
+
+        .widgetW{
+            display: flex;
+            padding: 10px;
+            gap: 1rem;
+            flex-wrap: wrap;
+            
+            
+            .widgetB{
+            display: flex;
+            justify-content: space-between;
+            flex: 2;
+            padding: 50px;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            border-radius: 10px;
+            height: 150px;
+            background-color: rgb(236, 235, 220);
+        
+            .middel{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+        
+            .title{
+                font-weight: bold;
+                font-size: 16px;
+                color: rgb(72, 71, 71);
+                padding: 1px;
+            }
+        
+            }
+        
+        }
+
+        .widgetD{
+            display: flex;
+            justify-content: center;
+            flex: 2;
+            padding: 50px;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            border-radius: 10px;
+            height: 150px;
+            background-color: rgb(184, 164, 139);
+        
+            .middelp{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+        
+            .titlep{
+                font-weight: bold;
+                font-size: 16px;
+                color: rgb(72, 71, 71);
+                padding: 1px
+            }
+
+
+        
+
+        }
+        
+            }
+        }
+
+        .bottomc{
+            margin-right: 5%;
+            margin-right: 5%;
+            text-align: right;
+
+             .button {
+                    width: 150px;
+                    padding: 10px;
+                    border: none;
+                    background-color: teal;
+                    color: rgb(141, 37, 37);
+                    font-weight: bold;
+                    cursor: pointer;
+                    margin-top: 10px;
+                  }
+
+                
+            }
+            
+
+    }
+
+    }
+
+
+   
+    

@@ -1,0 +1,36 @@
+.noti{
+
+    display: flex;
+
+    .notiContainer{
+        flex: 6;
+
+
+        .notititle{
+            font-size: 2em;
+            color: rgb(224, 101, 101);
+            align-items: center;
+            padding-left: 30%;
+
+            .widgetN{
+                display: flex;
+                justify-content: space-between;
+                flex: 2;
+                padding: 50px;
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                border-radius: 10px;
+                height: 150px;
+                background-color: rgb(237, 218, 193);
+            
+                .middelN{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+        }
+
+    }
+
+    }
+}
